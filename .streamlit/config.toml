@@ -1,10 +1,10 @@
 [theme]
 # Customize the appearance further with font and background
-base = "dark"  # Or "light"
-textColor = "#FFFFFF"
-backgroundColor = "#1e1e1e"
-secondaryBackgroundColor = "#2e2e2e"
-primaryColor = "#3498db"
-font = "sans-serif"
+base = "dark"
+textColor = "#E0E0E0"
+backgroundColor = "#141414"
+secondaryBackgroundColor = "#222831"
+primaryColor = "#00ADB5"
+font = "monospace"
 
 
