@@ -25,7 +25,7 @@ git clone https://github.com/yourusername/biodiversity-analysis.git
 cd biodiversity-analysis
 
 ### 3️⃣ Install dependencies:
-pip install -r requirements.txt
+pip install streamlit pandas matplotlib seaborn plotly numpy scikit-learn statsmodels
 
 ### 4️⃣ Run the Streamlit app:
 streamlit run [**filename**].py
