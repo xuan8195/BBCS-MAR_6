@@ -26,13 +26,13 @@ st.markdown("""
             text-align: center;
             font-size: 50px;
             font-weight: bold;
-            color: #008000;
+            color: #088F8F;
             margin-bottom: 20px;
         }
         .section-title {
             font-size: 34px;
             font-weight: bold;
-            color: #008000;
+            color: #088F8F;
             margin-top: 30px;
             margin-bottom: 10px;
             padding: 10px;
