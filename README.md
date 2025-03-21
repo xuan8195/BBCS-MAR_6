@@ -16,6 +16,28 @@ Built with **Streamlit**, it provides interactive dashboards for analyzing:
 - Pollution anomaly detection using machine learning
 ---
 
+## 🚀 Features
++ 📊 Dashboard with Interactive Visualizations
++ 🌊 Water Quality Analysis (Pollution trends, city-wise insights)
++ 🌫️ Air Quality Analysis (PM2.5, PM10, and other air pollutants)
++ 🌍 Country & Region-Based Filtering
++ 🔍 Data-Driven Insights for Better Decision-Making
+
+## 🛠 Tech Stack
++ Programming Language: Python 🐍
++ Libraries:
+  + Streamlit (for the web app)
+  + Pandas (data analysis)
+  + Seaborn & Matplotlib (visualizations)
+  + NumPy (data processing)
++ Data Source: water_quality.csv, air_quality.csv
+
+## 🎯 Project Goals
+✔️ Identify key air & water pollution trends
+✔️ Provide visual insights for policymakers & researchers
+✔️ Promote awareness on environmental sustainability
+✔️ Suggest data-backed solutions for better resource management
+
 ## How to Run the Project Locally
 
 ### 1️⃣ Clone this repository:
