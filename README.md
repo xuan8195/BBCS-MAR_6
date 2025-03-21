@@ -50,3 +50,10 @@ pip install streamlit streamlit-lottie pandas matplotlib seaborn plotly numpy sc
 
 ### 4️⃣ Run the Streamlit app:
 streamlit run Home.py
+
+## 🎯Use of AI Tools
+
+OpenAI. (2024). ChatGPT (March 21 version). https://chat.openai.com/
+
+https://chatgpt.com/share/67dd257a-00b4-800b-a68e-ed3f3435a19b
+
