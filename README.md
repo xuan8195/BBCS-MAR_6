@@ -12,4 +12,4 @@ cd biodiversity-analysis
 pip install -r requirements.txt
 
 ### 4️⃣ Run the Streamlit app:
-streamlit run Home.py
+streamlit run [**filename**].py
