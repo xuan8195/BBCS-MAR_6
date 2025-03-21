@@ -11,7 +11,7 @@ df = pd.read_csv(file_path, encoding="utf-8")
 df = df.dropna()
 
 # ---- Streamlit App ----
-st.title("🌊 Water Pollution Analysis")
+st.title("🌊 Water Pollution Analysis", page_icon="💧", layout="wide")
 
 st.write("""
 ## 🔬 **Understanding Water Pollution & Its Impact**
