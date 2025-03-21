@@ -43,10 +43,10 @@ Built with **Streamlit**, it provides interactive dashboards for analyzing:
 git clone https://github.com/xuan8195/BBCS-MAR_6.git
 
 ### 2️⃣ Navigate into the project folder:
-cd biodiversity-analysis
+cd BBCS-MAR_6
 
 ### 3️⃣ Install dependencies:
 pip install streamlit pandas matplotlib seaborn plotly numpy scikit-learn statsmodels
 
 ### 4️⃣ Run the Streamlit app:
-streamlit run [**filename**].py
+streamlit run home.py
