@@ -1,5 +1,21 @@
 # BBCS-MAR_6
 # BBCS Project 
+# 🌍 Biodiversity Pollution Insight Dashboard
+
+### By: [Your Team Name] | Hackathon Submission for 2025 March Conference
+
+---
+## 🚀 Overview
+
+This project explores the **impact of air and water pollution on biodiversity** using real-world datasets.  
+Built with **Streamlit**, it provides interactive dashboards for analyzing:
+
+- Air pollution trends by pollutant (PM2.5, PM10, NO2, SO2, O3, CO)
+- Water pollution levels across regions and cities
+- Future air pollution forecasts using ARIMA
+- Pollution anomaly detection using machine learning
+---
+
 ## How to Run the Project Locally
 
 ### 1️⃣ Clone this repository:
