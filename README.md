@@ -2,7 +2,7 @@
 # BBCS Project 
 # 🌍 Biodiversity Pollution Insight Dashboard
 
-### By: [Your Team Name] | Hackathon Submission for 2025 March Conference
+### By: TP Group | Hackathon Submission for 2025 March Conference
 
 ---
 ## 🚀 Overview
