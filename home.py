@@ -5,7 +5,7 @@ import numpy as np
 from streamlit_lottie import st_lottie
 
 
-st.set_page_config(page_title=" Our Biodiversity Project",page_icon="🌍")
+st.set_page_config(page_title=" Our Biodiversity Project",page_icon="🌍", layout="wide")
 
 
 
@@ -21,11 +21,12 @@ st.markdown("<h2 style='color: ;'>Analyzing Air and Water Quality Trends in diff
 col1 , col2 =st.columns(2)
 
 with col1:
-    st.header("**Water**")
-    st.image("https://cdn-icons-png.flaticon.com/512/2927/2927491.png", width=100)
+    st.markdown("<h3 style='text-align: center;'>💧 Water</h3>", unsafe_allow_html=True)
+    st.image("https://cdn-icons-png.flaticon.com/512/2927/2927491.png", width=120)
+
 with col2:
-    st.header("**Air**")
-    st.image("https://cdn-icons-png.flaticon.com/512/8407/8407664.png", width=100)
+    st.markdown("<h3 style='text-align: center;'>🌬️ Air</h3>", unsafe_allow_html=True)
+    st.image("https://cdn-icons-png.flaticon.com/512/8407/8407664.png", width=120)
 
 # 3. **Introduction**
 st.write("""

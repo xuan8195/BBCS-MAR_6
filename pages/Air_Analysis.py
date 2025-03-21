@@ -18,6 +18,7 @@ def load_air_quality_data():
     # Ensure 'Date' column is in datetime format
     if "Date" in df.columns:
         df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
+        df.dropna(subset=["Date"], inplace=True)  # Remove rows with invalid dates
         df["Year"] = df["Date"].dt.year
         df["Month"] = df["Date"].dt.month
     else:
@@ -36,6 +37,10 @@ selected_pollutant = st.sidebar.radio("☁️ Select Pollutant", ["PM2.5", "PM10
 
 # Apply Filters
 df_filtered = df[(df["Country"] == selected_country) & (df["City"] == selected_city) & (df["Year"] == selected_year)].copy()
+df_filtered = df_filtered.sort_values("Date").set_index("Date")
+df_filtered = df_filtered.select_dtypes(include=[np.number])
+df_filtered = df_filtered.groupby(df_filtered.index).mean()
+df_filtered = df_filtered.asfreq("D").interpolate(method="time")
 
 # ---- Header with Engaging Description ----
 st.markdown("<h1 style='text-align: center;'>🌎 Air Quality Analysis 🌎</h1>", unsafe_allow_html=True)
@@ -113,9 +118,10 @@ st.write("""
 df_filtered["Month_Year"] = df_filtered.index.to_period("M").astype(str)
 monthly_avg = df_filtered.groupby("Month_Year")[selected_pollutant].mean().reset_index()
 
-fig = px.bar(monthly_avg, x="Month_Year", y=selected_pollutant, title=f"Monthly {selected_pollutant} Trends in {selected_city}",
-             labels={'Month_Year': 'Month-Year', selected_pollutant: f"{selected_pollutant} (µg/m³)"},
-             color=selected_pollutant, color_continuous_scale="reds")
+fig = px.line(monthly_avg, x="Month_Year", y=selected_pollutant,
+              title=f"Monthly {selected_pollutant} Trends",
+              labels={'Month_Year': 'Month-Year', selected_pollutant: f"{selected_pollutant} (µg/m³)"},
+              markers=True)
 st.plotly_chart(fig)
 
 # ---- Anomaly Detection ----
