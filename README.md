@@ -33,10 +33,10 @@ Built with **Streamlit**, it provides interactive dashboards for analyzing:
 + Data Source: water_quality.csv, air_quality.csv
 
 ## 🎯 Project Goals
-✔️ Identify key air & water pollution trends
-✔️ Provide visual insights for policymakers & researchers
-✔️ Promote awareness on environmental sustainability
-✔️ Suggest data-backed solutions for better resource management
+✔️ Identify key air & water pollution trends<br>
+✔️ Provide visual insights for policymakers & researchers<br>
+✔️ Promote awareness on environmental sustainability<br>
+✔️ Suggest data-backed solutions for better resource management<br>
 
 ## How to Run the Project Locally
 
