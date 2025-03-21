@@ -49,4 +49,4 @@ cd biodiversity-analysis
 pip install streamlit streamlit-lottie pandas matplotlib seaborn plotly numpy scikit-learn statsmodels
 
 ### 4️⃣ Run the Streamlit app:
-streamlit run [**filename**].py
+streamlit run Home.py
