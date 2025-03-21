@@ -40,7 +40,7 @@ Built with **Streamlit**, it provides interactive dashboards for analyzing:
 ## How to Run the Project Locally
 
 ### 1️⃣ Clone this repository:
-git clone https://github.com/yourusername/biodiversity-analysis.git
+git clone https://github.com/xuan8195/BBCS-MAR_6.git
 
 ### 2️⃣ Navigate into the project folder:
 cd biodiversity-analysis
