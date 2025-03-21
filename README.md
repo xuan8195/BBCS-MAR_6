@@ -1,5 +1,4 @@
-# BBCS-MAR_6
-# BBCS Project 
+# BBCS-MAR_6 Project 
 # 🌍 Biodiversity Pollution Insight Dashboard
 
 ### By: TP Group | Hackathon Submission for 2025 March Conference
